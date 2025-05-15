@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@keyframes pulseColor {
+    0% {
+      color: #00000000;
+    }
+    50% {
+      color:rgb(66, 205, 50); /* Or choose any color you prefer */
+    }
+    100% {
+      color: whitesmoke;
+    }
+  }
+  
+  .animate-pulseColor {
+    animation: pulseColor 2s infinite;
+  }
+  
